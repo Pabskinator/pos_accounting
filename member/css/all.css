@@ -1,0 +1,331 @@
+.main-img{
+  width:100%;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+
+
+.txt-qty{
+    width:140px !important;
+  }
+  .classes_img {
+   height:300px;width: auto; margin: 0 auto; 
+  }
+  #goal_con {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-image:    url(../img/our-goal.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  z-index: -3;
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);  */
+  }
+  #classes_con {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-image:    url(../img/classes_cover.png);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  z-index: -3;
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);  */
+  }
+  .with-text-shadow{
+    text-shadow: -1px -1px 1px rgba(150, 150, 150, 1);
+  }
+
+  #img-trainers{
+
+  width: 100%;
+  height: 450px;
+  background-image:    url(../img/fight_team_cover.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  z-index: -3;
+
+  }
+  #img-trainer-label{
+    position: relative;
+    top:150px;
+  }
+  #img-trainers-overlay{
+      background: rgba(0, 0, 0, 0.7);
+      z-index: -2;
+     width: 100%;
+      height: 100%;
+  }
+  #lbl-logo{
+    padding-left: 5px;
+
+  }
+  #logo-icon{
+      margin-top: 10px;
+      margin-left:5px;
+  }
+  #wrapper-main,#wrapp_front{
+    overflow-x:hidden;
+  }
+  #fac1a, #fac1b,#fac2a,#fac2b,#fac3a,#fac3b,#fac4a,#fac4b{
+    visibility: hidden;
+  }
+#main-title,#secondary-title{
+    overflow:hidden !important;
+}
+  #con-btn-down{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+  }
+  #main-book-con{
+      background: rgba(0, 0, 0, 0.7);
+      z-index: -5;
+     
+      height: 100%;
+  }
+  #part-5{
+
+  width: 100%;
+  height: 100%;
+  background-image:    url(../img/boxing_cover.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  z-index: -3;
+
+  }
+  .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-image:    url('../img/mats.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  z-index: -3;
+ /*  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); */
+  }
+  .overlay-black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+ background: #000;
+opacity: 0.5;
+  z-index: -2;
+  }
+  
+  .below-overlay{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+  .bottom-of-overlay{
+      position: absolute;
+      bottom: 0px;
+      height: 100px;
+      background: #000;
+      opacity: 0.4;
+      width:100%;
+      z-index: -1;
+  }
+   .below-content-overlay a {
+     color:#fff !important;
+  }
+  .below-content-overlay{
+    position: absolute;
+    bottom: 0px;
+    color:#fff;
+    height: 100px;
+    width:100%;
+    
+  }
+  .below-div{
+      margin-top:30px;
+       margin-left:10px;
+  }
+  #main_con{
+    color:#fff;
+    margin-top:10%;
+
+  }
+ #main_con2{
+    color:#fff;
+    margin-top:5%;
+
+  }
+  .main_nav a{
+    color:#fff;
+  }
+ 
+  .home_card_img{
+      height: 200px;
+  }
+ #footer *{
+  color: #484848 !important;
+}
+.text-white{
+  color: #fff;
+}
+#menu-holder{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+#part-1-content,#part-2-content,#part-3-content{
+  /* visibility: hidden; */ 
+}
+
+#vid_holder{
+  top:0;
+  left:0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#vid_background{
+   position: relative;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("../img/safehouse3.jpg") no-repeat;
+    background-size: cover; 
+}
+#facilities_con {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-image:    url(../img/facility_reception.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  z-index: -3;
+
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);  */
+  }
+#trainer_con {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-image:    url(../img/coaches.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  z-index: -3;
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);  */
+  }
+  #main_con_trainer{
+    position: absolute;
+    top:120px;
+
+    width: 100%;
+    overflow: hidden;
+
+  }
+ 
+ }
+.absolute-center {
+
+/* Internet Explorer 10 */
+ display: table-cell;
+-ms-flex-pack:center;
+-ms-flex-align:center;
+
+/* Firefox */
+display:-moz-box;
+-moz-box-pack:center;
+-moz-box-align:center;
+
+/* Safari, Opera, and Chrome */
+display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+
+/* W3C */
+display:box;
+box-pack:center;
+box-align:center;
+
+}
+.review-msg{
+  font-size: 2.5em;
+  display: block;
+}
+.review-name{
+   font-size: 30px;
+}
+.init-hidden {
+  
+}
+.whole-width-pic{
+ 
+  height: 400px;
+}
+[v-cloak] { display: none }
+
+#slide-about img {
+ 
+}
+
+@media only screen and (max-width: 800px) {
+  #main_con{
+    color:#fff;
+    margin-top:20%;
+  }
+     
+ }
+ @media only screen and (max-width: 550px) {
+  #main_con{
+    color:#fff;
+    margin-top:30%;
+
+  }
+  .main_label_2,.main_label_3{
+    font-size: 12px;
+  }
+     
+ }

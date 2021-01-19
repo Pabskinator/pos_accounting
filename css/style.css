@@ -1,0 +1,342 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #101010;
+
+}
+.footermsg{
+    color:white;
+    text-align: center;
+    padding-top:20px;
+}
+.slide {
+    position:absolute;
+    width:300px;
+    height:100%;
+    top:10px;
+    left:-300px;
+    background-color:#101010;
+    cursor:pointer;
+    z-index: 100;
+}
+.sidebarmenu a{
+    color:#fff;
+}
+.two-column{
+    background-color:#fff;
+}
+#cart-table th ,#cart-table td{
+    border-top:none;
+
+}
+.circletextbox{
+    border-radius: 5px;
+    width:80px;
+}
+.removeItem:hover{
+    color:red;
+    cursor:pointer;
+}
+.removeItem{
+    font-size:1.2em;
+}
+.allocateBranch:hover{
+    color:red;
+    cursor:pointer;
+}
+
+.allocateBranch{
+    font-size:1.2em;
+}
+.ind_multiple_ss:hover{
+     color:red;
+     cursor:pointer;
+ }
+.ind_sales_type:hover{
+    color:red;
+    cursor:pointer;
+}
+.ind_sales_type{
+    font-size:1.2em;
+}
+.ind_station{
+    font-size:1.2em;
+}
+.ind_multiple_ss{
+    font-size:1.2em;
+}
+
+.addcart:hover{
+    color:red;
+    cursor:pointer;
+}
+.addcart{
+    font-size:1.2em;
+}
+
+.checkout:hover{
+    color:red;
+    cursor:pointer;
+}
+.checkout{
+    font-size:1.2em;
+}
+.tab-content{
+    padding:10px;
+    margin: 0 auto;
+}
+.datepicker{z-index:1151 !important;}
+
+
+/* Absolute Center CSS Spinner */
+
+
+.loading {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+    /* hide "loading..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.loading:not(:required):after {
+    content: '';
+    display: block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    -webkit-animation: spinner 1500ms infinite linear;
+    -moz-animation: spinner 1500ms infinite linear;
+    -ms-animation: spinner 1500ms infinite linear;
+    -o-animation: spinner 1500ms infinite linear;
+    animation: spinner 1500ms infinite linear;
+    border-radius: 0.5em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+    box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-o-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#imagecon {
+    position:absolute;
+    right:-290px;
+    top:0px;
+    width:300px;
+    height:300px;
+    background-color:#fff;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    z-index:999;
+    display:none;
+    padding:20px;
+}
+#imagecon  img {
+    width:100%;
+    height:100%;
+    border:1px solid #ccc;
+}
+@media only screen and (max-width: 800px) {
+
+    /* Force table to not be like tables anymore */
+    #no-more-tables table,
+    #no-more-tables thead,
+    #no-more-tables tbody,
+    #no-more-tables th,
+    #no-more-tables td,
+    #no-more-tables tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables tr { border: 1px solid #ccc; }
+
+    #no-more-tables td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #no-more-tables td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #no-more-tables td:before { content: attr(data-title); }
+}
+@media (max-width: 600px) {
+    #mainCon .table{
+        font-size:0.8em;
+
+    }
+    #mainCon .table a {
+        margin:1px;
+    }
+    #cart .table{
+        font-size:0.8em;
+
+    }
+    #cart .table a {
+        margin:1px;
+    }
+    .modal-body .table{
+        font-size:0.8em;
+    }
+}
+@media (max-width: 780px) {
+    .modal-body .table td{
+        color:#000;
+    }
+    #mainCon .table td{
+        color:#000;
+    }
+    #cart .table td{
+        color:#000;
+    }
+}
+.item_image{
+    height:150px !important;
+}
+.item_details{
+    display:block;
+}
+.thumbItem{
+     cursor: pointer;
+ }
+.thumbItem  .thumbnail:active{
+   background: #ccc;
+   border: #444 1px solid;
+   border-radius: 5px;
+}

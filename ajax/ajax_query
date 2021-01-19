@@ -1,0 +1,16 @@
+<?php
+	include 'ajax_connection.php';
+
+	$functionName = Input::get("functionName");
+
+	$functionName();
+
+	function chequeChangeStatus(){
+		$id = Input::get('id');
+		$val= Input::get('val');
+		$cheque = new Cheque();
+		$cheque->changeStatus($id,$val);
+		
+	}
+
+

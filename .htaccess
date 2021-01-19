@@ -1,0 +1,5 @@
+Options -Indexes
+RewriteEngine On
+ErrorDocument 404  "<body style='background: #fcfaf2; font-family: Vollkorn;padding-top: 100px;text-align: center;'><h1 style='color: #353535; font-size:73px;'>Apollo Systems </h1><h3 style='border-bottom: 1px solid #e2e1d9; border-top: 1px solid #e2e1d9; color: #c90707;font-size:30px; margin: 10px auto 0;padding: 20px 0; width: 100%;'>Warning: Oops that page can't be found!</h3></body>"
+
+Header set X-Robots-Tag "noindex, nofollow"

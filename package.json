@@ -1,0 +1,24 @@
+{
+  "name": "pos",
+  "version": "1.0.0",
+  "description": "/* Copyright (C) Apollo systems Inc. - All Rights Reserved  * Point of Sale System  * Unauthorized copying of this file, via any medium is strictly prohibited  * Proprietary and confidential  * Written by Jayson Temporas <jaysontemporas17@gmail.com>, May 2016  */",
+  "main": "upup.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/semp01/pos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/semp01/pos/issues"
+  },
+  "homepage": "https://gitlab.com/semp01/pos#README",
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}

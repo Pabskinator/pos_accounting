@@ -1,0 +1,11 @@
+.treegrid-indent {width:16px; height: 16px; display: inline-block; position: relative;}
+
+.treegrid-expander {width:16px; height: 16px; display: inline-block; position: relative; cursor: pointer;}
+
+tr:not(:first-child):not(.child) {
+    text-align: left;
+    border-top: 1px solid #ccc;
+}
+.child {
+    border-top: 1px solid #eee;
+}
